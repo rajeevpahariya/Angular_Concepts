@@ -1,0 +1,4 @@
+<!-- ngStyle is directives and [] is for property binding and not part of directives-->
+<p [ngClass]="{online : serverStatus === 'online'}"
+    [ngStyle]='{backgroundColor: getColor()}'> {{ 'Server' }} with id 
+        {{ serverId }} and status {{ getServerStatus() }}</p>

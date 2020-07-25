@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ng-angular-config-44d92": {
+      "hosting": {
+        "angular-config": [
+          "ng-angular-config-44d92"
+        ]
+      }
+    }
+  }
+}

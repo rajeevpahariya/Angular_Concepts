@@ -1,0 +1,21 @@
+.container {
+  margin-top: 30px;
+}
+
+/* Below is CSS styling - ng-invalid class has been adde in form/field by  angular. This will 
+add red border to whole form*/
+
+/*.ng-invalid{
+  border: 1px solid red;
+}*/
+
+/* This will apply to only input field. Red border will display even page load 1st time,
+which is not the right behaviour. Lets give user a chance to enter the value and show invalid*/
+
+/*input.ng-invalid{
+  border: 1px solid red;
+}*/
+
+input.ng-invalid.ng-touched{
+  border: 1px solid red;
+}
